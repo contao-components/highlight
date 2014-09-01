@@ -1,0 +1,25 @@
+{
+    "name": "contao-components/highlight",
+    "type": "component",
+    "description": "Highlight.js integration for Contao Open Source CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leo Feyer",
+            "homepage": "https://github.com/leofeyer"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "~0.0"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/highlight.pack.js"
+            ],
+            "files": [
+                "css/*"
+            ]
+        }
+    }
+}
