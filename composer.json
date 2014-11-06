@@ -1,6 +1,6 @@
 {
     "name": "contao-components/highlight",
-    "type": "component",
+    "type": "contao-component",
     "description": "Highlight.js integration for Contao Open Source CMS",
     "license": "MIT",
     "authors": [
@@ -10,16 +10,6 @@
         }
     ],
     "require": {
-        "robloach/component-installer": "~0.0"
-    },
-    "extra": {
-        "component": {
-            "scripts": [
-                "js/highlight.pack.js"
-            ],
-            "files": [
-                "css/*"
-            ]
-        }
+        "contao-components/installer": "~1.0"
     }
 }
