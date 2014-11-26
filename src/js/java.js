@@ -1,6 +1,7 @@
 /*
 Language: Java
 Author: Vsevolod Solovyov <vsevolod.solovyov@gmail.com>
+Category: common
 */
 
 function(hljs) {
@@ -38,8 +39,8 @@ function(hljs) {
         ]
       },
       {
-        // this prevents 'new Name(...)' from being recognized as a function definition
-        beginKeywords: 'new', end: /\s/,
+        // this prevents 'new Name(...), or throw ...' from being recognized as a function definition
+        beginKeywords: 'new throw', end: /\s/,
         relevance: 0
       },
       {
